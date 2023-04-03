@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    font-family: "Lato", Helvetica, sans-serif
+}
+
+/* HEADER */
+.navbar {
+    padding: 0.7rem 1rem !important;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.size_log_lupa {
+    width: 50%;
+}
+.size_lupa{
+    width: 20px;
+}
+
+.nav-link {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+ul .nav-link {
+    font-size: 14px !important;
+}
+.texto-sub{
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+.li-hover{
+    cursor: pointer;
+}
+header .dropdown-menu{
+    font-size: 14px !important;
+}
+/* fin header */
+
+/* slider #1 */
+.carousel-control-prev-icon {
+    background-image: url(img/arrow_left.png);
+    width: 20px;
+    height: 32px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/arrow_right.png);
+    width: 20px;
+    height: 32px;
+}
+
+/* slider #2 */
+.title-2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+}
+
+/* slider #3 */
+.owl-prev {
+    left: 0;
+    position: absolute;
+}
+
+.owl-next {
+    position: absolute;
+    right: 0;
+}
+
+.img-card1 {
+    background-image: url(img/tesla1.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.img-card2 {
+    background-image: url(img/tesla2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.img-card3 {
+    background-image: url(img/tesla3.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.owl-carousel .card {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.owl-carousel .card-body {
+    padding: 0rem;
+}
+
+.owl-carousel .card-header {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.owl-carousel .card-header:first-child {
+    border-radius: 0px;
+}
+
+.owl-carousel .card-footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #333 !important;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-top: 0px;
+}
+
+.owl-carousel .owl-prev {
+    left: -33px;
+    top: 50% !important;
+    font-size: 40px !important;
+}
+
+.owl-carousel .owl-next {
+    right: -33px;
+    top: 50% !important;
+    font-size: 40px !important;
+}
+
+/* tercera seccion */
+.triangulo {
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 20% 93%, 12% 100%, 5% 93%, 0 93%);
+}
+.card-body p{
+    font-size: 14px;
+}
+.card-title {
+    font-weight: 700;
+}
+
+.tercera-seccion .card {
+    border: 0;
+    border-radius: 0;
+}
+
+/* CUARTA SECCION */
+.img-fondo {
+    background-image: linear-gradient(rgba(33, 150, 83, 0.5),
+            rgba(33, 150, 83, 0.5)),
+        url(img/imageCars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 3rem;
+}
+.fondo{
+    background-image: url(img/RectangleVerde.png);
+    padding: 2rem 3rem;
+}
+.claseZ{
+    z-index: 1;
+}
+.imgEcosport{
+    height: 100%;
+    width: 130%;
+}
+.titleabout{
+    color: #fff;
+    font-weight: 700;
+}
+.textabout{
+    color: #fff;
+    font-size: 14px;
+}
+/* footer */
+.logoFooter{
+    width: 30%;
+}
+footer{
+    background-color: #333;
+    padding: 3rem 0;
+}
+footer .col-lg-4{
+    padding: 0px;
+}
+.telefonos .list-group {
+    color: #fff !important;
+    font-size: 10px;
+    text-decoration: none !important;
+}
+.telefonos a{
+    color: #fff !important;
+    font-size: 10px;
+    text-decoration: none !important;
+}
+li{
+    line-height : 25px;
+}
+.list-group-horizontal{
+    justify-content: center;
+}
+.termsAndConditions li{
+    color: #fff;
+    font-size: 8px !important;
+}
+.list-group-horizontal img{
+    width: 70%;
+    justify-content: center;
+}
+.horario1 .list-group-item{
+    font-size: 10px;
+}
+select{
+    width: 100%;
+}
+.list-group-item {
+    color: #fff;
+    padding: 0 0.5rem;
+    border: 0px;
+    background-color: transparent;
+}
+/* media query */
+@media only screen and (max-width: 575px) {
+    .owl-carousel .owl-prev {
+        left: 0px;
+    }
+    .owl-carousel .owl-next {
+        right: 0px;
+    }
+    .title-2 {
+        font-size: 20px;
+      }
+      .img-fondo{
+          padding: 0px 1rem;
+      }
+      .fondo {
+        padding: 2rem 2rem;
+    }
+    .imgEcosport{
+        width: 100% !important;
+    }
+  }
+@media only screen and (min-width:576px) and (max-width: 767px) {
+    .title-2 {
+      font-size: 25px;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .just-center{
+        justify-content: center;
+    }
+    .ocultar {
+      display: none;
+    }
+    .table-desktop{
+        display: none;
+    }
+    footer{
+        padding: 1rem 0;
+    }
+    .telefonos{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .horario1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .termsAndConditions li {
+        font-size: 7px !important;
+    }
+  }
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .textabout {
+      font-size: 12px;
+    }
+    .titleabout{
+        font-size: 1rem !important;
+    }
+    .img-fondo{
+        padding: 0px;
+    }
+    .imgEcosport {
+        height: 100%;
+        width: 140%;
+        padding-top: 10px;
+    }
+}
